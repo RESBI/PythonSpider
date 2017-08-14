@@ -31,6 +31,15 @@ def checkhash(URL):
 
     return("ok")
 
+def addMore(a,URL):
+    temp = a.split('/')
+    a = URL
+    for i in range(len(temp) - 1):
+        a += temp[i + 1]
+        if i < len(temp) - 2:
+            a += "/"
+    return(a)
+
     #Check if URL is wrong.
 def checka(a,URL):
 
@@ -41,10 +50,12 @@ def checka(a,URL):
         a = "http:"+a
 
     if (a[0] != "h") and (a[1] != "/" ) or (a[0] == "/") and (a[1] != "/"):
-        a = URL+a.split('/')[0]
+        a = addMore(a,URL)
 #s		
     if a[0] == "." and a[1] == "/":
-        a = URL+a.split('/')[0]
+        a = addMore(a,URL)
+
+#    print(a)
 
     return(a)
 
