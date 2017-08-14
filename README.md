@@ -5,9 +5,10 @@
 =Run the "RunItFirstTime.py" at first time!.=
 ---------------------------------------------
 
-# About
+# About:
+## It is an network URL spider.
+## You can copy it and change it then update to your GitProject.
+## But I hope you can tell me befor.
 
-It is an network URL spider.
-now Version is:beta 5.
-You can copy it and change it then update to your GitProject.
-But I hope you can tell me befor.
+# Ver:
+beta 5.
