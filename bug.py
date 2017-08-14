@@ -2,12 +2,14 @@ import getfile
 import gethtml
 import getre
 import _thread
-import socker
+#If you need socks,you can takeout the "#" in here.
+#import socker
 #import time
 
 tempf = open("txts/URLs.txt","at")
 
-socker.socker("192.168.0.100",1080)
+#If you need socks,you can takeout the "#" in here.
+#socker.socker("your socks ip address",port)
 
 URL = str(input("Input a URL,<e.g:https://taobao.com/>"))
 
