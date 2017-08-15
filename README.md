@@ -11,4 +11,5 @@
 ## But I hope you can tell me befor.
 
 # Ver:
-beta 5.
+## bug.py : beta 5
+## bug-new.py : beta 5.0.2
